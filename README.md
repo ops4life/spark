@@ -33,4 +33,4 @@ Track the progress of ideas on our [Project Board](https://github.com/orgs/ops4l
 
 ## 📜 License
 
-[MIT License](https://opensource.org/licenses/MIT)
+[MIT License](./LICENSE)
