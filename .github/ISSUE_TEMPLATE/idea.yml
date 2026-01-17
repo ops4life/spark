@@ -1,0 +1,38 @@
+name: 💡 Idea
+description: Suggest a new idea or feature for the organization
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your idea! ✨
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your idea
+      description: A clear description of your idea or suggestion
+      placeholder: I think it would be great if...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: What problem does this idea address?
+      placeholder: This would help with...
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative solutions you've thought about?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other context, links, or screenshots
+    validations:
+      required: false

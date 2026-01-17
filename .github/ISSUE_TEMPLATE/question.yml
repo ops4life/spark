@@ -1,0 +1,32 @@
+name: ❓ Question
+description: Ask a question about ops4life projects
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're here to help! 🤝
+
+        💡 **Tip:** Consider using [Discussions](https://github.com/ops4life/spark/discussions) for general questions.
+  - type: input
+    id: project
+    attributes:
+      label: Related project
+      description: Which project is this about? (optional)
+      placeholder: e.g., .github, spark
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any relevant background or what you've already tried
+    validations:
+      required: false
