@@ -1,6 +1,6 @@
 name: 💡 Idea
 description: Suggest a new idea or feature for the organization
-labels: ["idea"]
+labels: ["idea", "internal developer portal"]
 body:
   - type: markdown
     attributes:
