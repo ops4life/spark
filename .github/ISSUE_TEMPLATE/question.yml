@@ -1,6 +1,6 @@
 name: ❓ Question
 description: Ask a question about ops4life projects
-labels: ["question"]
+labels: ["question", "internal developer portal"]
 body:
   - type: markdown
     attributes:
