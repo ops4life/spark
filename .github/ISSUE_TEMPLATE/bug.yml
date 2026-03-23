@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: Report an issue or bug in any ops4life project
-labels: ["bug", "internal developer portal"]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
